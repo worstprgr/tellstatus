@@ -1,5 +1,5 @@
 # Tell Status
-This application sends you an email, if a specific homepage, has a specific http status code.  
+This application sends you an email, if a specific homepage, returns a specific http status code.  
 
 > [!NOTE]
 > I wrote that application only for learning Rust. So don't rely on it.
