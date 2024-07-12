@@ -66,7 +66,7 @@ In the `makefile` are some presets. Like compiling and build for docker.
 Some examples:  
 
 * `make` -> Building for AARCH64, creating and saving the Docker image
-* `make fast` -> same like `make` but also deploying a Docker dontainer
+* `make fast` -> same like `make` but also deploying a Docker container
 * `make build-rel-lnx` -> Building for AMD64 Linux
 * `make docker-build-linux` -> Building a Docker image for AMD64 Linux
 * `make clean` -> Deleting the Docker image
