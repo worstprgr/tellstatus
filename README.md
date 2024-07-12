@@ -48,6 +48,7 @@ You can use it in a container or without. The only important thing is, that you 
 environment variables. Otherwise the application will terminate.  
 
 Run it with: `./tellstatus`  
+
 I recommend to explicitly change the working directory, where the application is stored. 
 Otherwise it will create the `state` file, where you initialy invoked the terminal.  
 
