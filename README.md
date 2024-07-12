@@ -1,5 +1,5 @@
 # Tell Status
-This application sends you an email, if a specific homepage, returns a specific http status code.  
+This application sends you an email, if a specific homepage returns a specific http status code.  
 
 > [!NOTE]
 > I wrote that application only for learning Rust. So don't rely on it.
@@ -38,9 +38,9 @@ POLLING_RATE_SEC=       "21600"
 
 ## Behaviour
 If the target url returns the matching status code, it'll send you a mail. But only once.  
-After that it only resets it's state, if the target url returns an other status code.  
+After that, it only resets it's state, if the target url returns any other status code.  
 
-If you're hosting it, in a container, a reload will reset the state. Otherwise you can delete 
+If you're hosting it in a container, a reload will reset the state. Otherwise you can delete 
 the `state` file inside the working directory.  
 
 ## Usage
