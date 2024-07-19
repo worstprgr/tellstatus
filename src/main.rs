@@ -164,8 +164,7 @@ async fn if_status_send_mail(state_handler: &state::State, status_code: u16, mat
 
 
 async fn head_request(client: &reqwest::Client, url: &str) -> Result<u16, Error> {
-    // match client.head(url).send().await {
-    match client.get(url).send().await {
+    match client.head(url).send().await {
         Ok(response) => {
             println!("Response: {}", response.status());
             Ok(response.status().as_u16())
